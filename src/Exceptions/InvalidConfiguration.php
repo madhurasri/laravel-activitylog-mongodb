@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Activitylog\Exceptions;
+namespace Madhurasri\Activitylog\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Activitylog\Contracts\Activity;
+use Madhurasri\Activitylog\Contracts\Activity;
 
 class InvalidConfiguration extends Exception
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Test\Enums;
+namespace Madhurasri\Activitylog\Test\Enums;
 
 enum StringBackedEnum: string
 {

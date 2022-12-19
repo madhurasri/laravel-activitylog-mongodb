@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Traits;
+namespace Madhurasri\Activitylog\Traits;
 
 use Carbon\CarbonInterval;
 use DateInterval;
@@ -11,12 +11,12 @@ use Illuminate\Pipeline\Pipeline;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Spatie\Activitylog\ActivityLogger;
-use Spatie\Activitylog\ActivitylogServiceProvider;
-use Spatie\Activitylog\ActivityLogStatus;
-use Spatie\Activitylog\Contracts\LoggablePipe;
-use Spatie\Activitylog\EventLogBag;
-use Spatie\Activitylog\LogOptions;
+use Madhurasri\Activitylog\ActivityLogger;
+use Madhurasri\Activitylog\ActivitylogServiceProvider;
+use Madhurasri\Activitylog\ActivityLogStatus;
+use Madhurasri\Activitylog\Contracts\LoggablePipe;
+use Madhurasri\Activitylog\EventLogBag;
+use Madhurasri\Activitylog\LogOptions;
 
 trait LogsActivity
 {

@@ -1,9 +1,9 @@
 <?php
 
-use Spatie\Activitylog\Exceptions\InvalidConfiguration;
-use Spatie\Activitylog\Test\Models\Activity;
-use Spatie\Activitylog\Test\Models\AnotherInvalidActivity;
-use Spatie\Activitylog\Test\Models\InvalidActivity;
+use Madhurasri\Activitylog\Exceptions\InvalidConfiguration;
+use Madhurasri\Activitylog\Test\Models\Activity;
+use Madhurasri\Activitylog\Test\Models\AnotherInvalidActivity;
+use Madhurasri\Activitylog\Test\Models\InvalidActivity;
 
 beforeEach(function () {
     $this->activityDescription = 'My activity';

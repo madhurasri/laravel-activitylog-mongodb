@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace Madhurasri\Activitylog;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Activitylog\Contracts\Activity;
-use Spatie\Activitylog\Contracts\Activity as ActivityContract;
-use Spatie\Activitylog\Exceptions\InvalidConfiguration;
-use Spatie\Activitylog\Models\Activity as ActivityModel;
+use Madhurasri\Activitylog\Contracts\Activity;
+use Madhurasri\Activitylog\Contracts\Activity as ActivityContract;
+use Madhurasri\Activitylog\Exceptions\InvalidConfiguration;
+use Madhurasri\Activitylog\Models\Activity as ActivityModel;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Test\Models;
+namespace Madhurasri\Activitylog\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

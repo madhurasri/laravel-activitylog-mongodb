@@ -1,6 +1,6 @@
 <?php
 
-use Spatie\Activitylog\Facades\LogBatch;
+use Madhurasri\Activitylog\Facades\LogBatch;
 use Illuminate\Support\Str;
 
 it('generates uuid after start and end batch properely', function () {

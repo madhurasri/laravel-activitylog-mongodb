@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Test\Models\User;
+use Madhurasri\Activitylog\Models\Activity;
+use Madhurasri\Activitylog\Test\Models\Article;
+use Madhurasri\Activitylog\Test\Models\User;
 
 beforeEach(function () {
     collect(range(1, 5))->each(function (int $index) {
@@ -85,8 +85,8 @@ it('provides a scope to get log items for a specific subject', function () {
 
 it('provides a scope to get log items for a specific morphmapped causer', function () {
     Relation::morphMap([
-        'articles' => 'Spatie\Activitylog\Test\Models\Article',
-        'users' => 'Spatie\Activitylog\Test\Models\User',
+        'articles' => 'Madhurasri\Activitylog\Test\Models\Article',
+        'users' => 'Madhurasri\Activitylog\Test\Models\User',
     ]);
 
     $subject = Article::first();
@@ -109,8 +109,8 @@ it('provides a scope to get log items for a specific morphmapped causer', functi
 
 it('provides a scope to get log items for a specific morphmapped subject', function () {
     Relation::morphMap([
-        'articles' => 'Spatie\Activitylog\Test\Models\Article',
-        'users' => 'Spatie\Activitylog\Test\Models\User',
+        'articles' => 'Madhurasri\Activitylog\Test\Models\Article',
+        'users' => 'Madhurasri\Activitylog\Test\Models\User',
     ]);
 
     $subject = Article::first();

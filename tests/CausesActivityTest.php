@@ -1,6 +1,6 @@
 <?php
 
-use Spatie\Activitylog\Test\Models\User;
+use Madhurasri\Activitylog\Test\Models\User;
 
 it('can get all activity for the causer', function () {
     $causer = User::first();

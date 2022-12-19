@@ -4,15 +4,15 @@ use Carbon\Carbon;
 use Carbon\CarbonInterval;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Arr;
-use Spatie\Activitylog\Contracts\LoggablePipe;
-use Spatie\Activitylog\EventLogBag;
-use Spatie\Activitylog\LogBatch;
-use Spatie\Activitylog\LogOptions;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Casts\IntervalCasts;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Test\Models\User;
-use Spatie\Activitylog\Traits\LogsActivity;
+use Madhurasri\Activitylog\Contracts\LoggablePipe;
+use Madhurasri\Activitylog\EventLogBag;
+use Madhurasri\Activitylog\LogBatch;
+use Madhurasri\Activitylog\LogOptions;
+use Madhurasri\Activitylog\Models\Activity;
+use Madhurasri\Activitylog\Test\Casts\IntervalCasts;
+use Madhurasri\Activitylog\Test\Models\Article;
+use Madhurasri\Activitylog\Test\Models\User;
+use Madhurasri\Activitylog\Traits\LogsActivity;
 
 beforeEach(function () {
     $this->article = new class() extends Article {

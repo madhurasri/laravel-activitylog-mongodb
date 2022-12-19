@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Activitylog\Test\Models;
+namespace Madhurasri\Activitylog\Test\Models;
 
-use Spatie\Activitylog\LogOptions;
-use Spatie\Activitylog\Traits\LogsActivity;
+use Madhurasri\Activitylog\LogOptions;
+use Madhurasri\Activitylog\Traits\LogsActivity;
 
 class ArticleWithLogDescriptionClosure extends Article
 {

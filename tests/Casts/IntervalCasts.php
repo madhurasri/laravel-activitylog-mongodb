@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Test\Casts;
+namespace Madhurasri\Activitylog\Test\Casts;
 
 use Carbon\CarbonInterval;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;

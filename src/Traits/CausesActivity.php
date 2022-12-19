@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Activitylog\Traits;
+namespace Madhurasri\Activitylog\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Spatie\Activitylog\ActivitylogServiceProvider;
+use Madhurasri\Activitylog\ActivitylogServiceProvider;
 
 trait CausesActivity
 {

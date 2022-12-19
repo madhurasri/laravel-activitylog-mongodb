@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace Madhurasri\Activitylog;
 
 use Closure;
 use Ramsey\Uuid\Uuid;

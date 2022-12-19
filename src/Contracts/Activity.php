@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Activitylog\Contracts;
+namespace Madhurasri\Activitylog\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Collection;
 
@@ -13,7 +13,7 @@ interface Activity
 
     public function causer(): MorphTo;
 
-    public function getExtraProperty(string $propertyName, mixed $defaultValue): mixed;
+    public function getExtraProperty(string $propertyName): mixed;
 
     public function changes(): Collection;
 

@@ -9,8 +9,8 @@ The most basic example of an Activity logged model would be:
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Activitylog\Traits\LogsActivity;
-use Spatie\Activitylog\LogOptions;
+use Madhurasri\Activitylog\Traits\LogsActivity;
+use Madhurasri\Activitylog\LogOptions;
 
 class YourModel extends Model
 {

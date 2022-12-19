@@ -1,13 +1,14 @@
 {
-    "name": "spatie/laravel-activitylog",
-    "description": "A very simple activity logger to monitor the users of your website or application",
+    "name": "madhurasri/laravel-activitylog-mongodb",
+    "description": "This is an extended version of the popular spatie/laravel-activitylog package designed to store data in MongoDB databases.",
     "license": "MIT",
     "keywords": [
         "spatie",
         "log",
         "user",
         "activity",
-        "laravel"
+        "laravel",
+        "mongodb"
     ],
     "authors": [
         {
@@ -26,6 +27,12 @@
             "name": "Tom Witkowski",
             "email": "dev.gummibeer@gmail.com",
             "homepage": "https://gummibeer.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Yasitha Gunarathne",
+            "email": "yasitha@madhurasri.com",
+            "homepage": "https://madhurasri.com",
             "role": "Developer"
         }
     ],
@@ -46,7 +53,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Spatie\\Activitylog\\": "src"
+            "Madhurasri\\Activitylog\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -54,7 +61,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Activitylog\\Test\\": "tests"
+            "Madhurasri\\Activitylog\\Test\\": "tests"
         }
     },
     "config": {
@@ -66,7 +73,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Activitylog\\ActivitylogServiceProvider"
+                "Madhurasri\\Activitylog\\ActivitylogServiceProvider"
             ]
         }
     },

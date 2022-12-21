@@ -2,7 +2,7 @@
 
 # Log activity inside your Laravel app with MongoDB support
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/madhurasri/laravel-activitylog-extended.svg?style=flat-square)](https://packagist.org/packages/madhurasri/laravel-activitylog-mongodb)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/madhurasri/laravel-activitylog-mongodb.svg?style=flat-square)](https://packagist.org/packages/madhurasri/laravel-activitylog-mongodb)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/madhurasri/laravel-activitylog-extended/run-tests?label=tests)](https://github.com/madhurasri/laravel-activitylog-mongodb/actions/workflows/run-tests.yml)
 [![Check & fix styling](https://github.com/madhurasri/laravel-activitylog-mongodb/workflows/Check%20&%20fix%20styling/badge.svg)](https://github.com/madhurasri/laravel-activitylog-mongodb/actions/workflows/php-cs-fixer.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/madhurasri/laravel-activitylog-mongodb.svg?style=flat-square)](https://packagist.org/packages/madhurasri/laravel-activitylog-mongodb)
